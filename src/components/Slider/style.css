@@ -1,0 +1,32 @@
+.swiper {
+  width: 100%;
+  height: auto;
+  padding: 12px 0 72px 0;
+}
+
+.swiper-slide {
+  text-align: start;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.mySwiperOne .swiper-slide {
+  background: #c2d3da;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
